@@ -13,7 +13,7 @@ let server;
 
 const start = async()=>{    // function that creates the server
      server = Hapi.Server({
-        port : 8000,                     // here we create our Hapi server and pass the configuration object. 
+        port : 8001,                     // here we create our Hapi server and pass the configuration object. 
         host: 'localhost',
     }); 
 
